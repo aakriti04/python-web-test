@@ -15,6 +15,10 @@ data = [
     'name': 'mno',
     'age': 45
   },
+  {
+    'name': 'xyz',
+    'age': 45
+  },
 ]
 print(data)
 
