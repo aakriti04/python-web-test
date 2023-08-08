@@ -1,5 +1,7 @@
 from flask import Flask, render_template
 
+import database
+
 app = Flask(__name__)
 
 data = [
@@ -20,6 +22,8 @@ data = [
     'age': 45
   },
 ]
+
+data1 = database
 print(data)
 
 
